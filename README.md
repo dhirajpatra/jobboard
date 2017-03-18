@@ -24,3 +24,8 @@ COS:
 email   about   it 
 ● email   notification   should   contain   title   and   description   of   submission,   as   well   as   links   to 
 approve   (publish)   or   mark   it   as   a   spam. 
+
+-- PSR 2 standard
+By php-cs-fixer all cotrollers, models and routes files are PSR 2 standard.
+
+--phpUnit tested
