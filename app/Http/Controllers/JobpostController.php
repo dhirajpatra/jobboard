@@ -103,20 +103,23 @@ class JobpostController extends Controller
 
                     $jobPostDetails = 'Title: ' . Input::get('job_posting_title') . ', Email: ' . Input::get('job_posting_email') . ', Description: ' . Input::get('job_posting_description');
 
+                    $template = 'jobpost.activate';
                     $data = ['confirmationCode' => $confirmationCode, 'jobPostDetails' => $jobPostDetails, 'id' => $jobId];
-                    // first post need to send mail to moderator
-                    Mail::send('jobpost.activate', $data, function ($mailMessage) {
-                        $mailMessage->to('dhiraj.patra@gmail.com', 'Moderator')->subject('Activate the first job posting');
-                    });
+                    $email = 'dhiraj.patra@gmail.com';
+                    $name = 'Moderator';
+                    $subject = 'Activate the first job posting';
 
+                    // first post need to send mail to moderator
+                    $this->sendMail($template, $data, $email, $name, $subject);
+
+                    $template = 'jobpost.postsaved';
                     $data = ['message' => $message];
                     $email = Input::get('job_posting_email');
                     $name = User::find($userId)->name;
+                    $subject = 'Your post is awiting moderation';
 
                     // mail send to job poster
-                    Mail::send('jobpost.postsaved', $data, function ($mailMessage) use ($email, $name) {
-                        $mailMessage->to($email, $name)->subject('Your post is awiting moderation');
-                    });
+                    $this->sendMail($template, $data, $email, $name, $subject);
                 } else {
                     $message = 'Your job has been published';
 
@@ -133,6 +136,28 @@ class JobpostController extends Controller
             }
 
             return Redirect::route('jobpost')->with('success', $message);
+        } catch (Exception $e) {
+            Flash::message('Something went wrong ' . $e->getMessage());
+        }
+    }
+
+    /**
+     * this will send mail
+     * @param $template
+     * @param $data
+     * @param $email
+     * @param $name
+     * @param $subject
+     * @return bool
+     */
+    public function sendMail($template, $data, $email, $name, $subject)
+    {
+        try {
+            Mail::send($template, $data, function ($mailMessage) use ($email, $name, $subject) {
+                $mailMessage->to($email, $name)->subject($subject);
+            });
+
+            return true;
         } catch (Exception $e) {
             Flash::message('Something went wrong ' . $e->getMessage());
         }
@@ -166,15 +191,19 @@ class JobpostController extends Controller
      */
     public function makeSpam($id)
     {
-        $id = Crypt::decryptString($id);
-        $jobPostingObj = new Jobposting();
-        $update = $jobPostingObj->makeSpam($id);
+        try {
+            $id = Crypt::decryptString($id);
+            $jobPostingObj = new Jobposting();
+            $update = $jobPostingObj->makeSpam($id);
 
-        if ($update) {
-            echo 'You have made the job post as spam.';
-        } else {
-            echo 'Spam action not successful.';
+            if ($update) {
+                echo 'You have made the job post as spam.';
+            } else {
+                echo 'Spam action not successful.';
+            }
+            //return Redirect::route('login');
+        } catch (Exception $e) {
+            Flash::message('Something went wrong ' . $e->getMessage());
         }
-        //return Redirect::route('login');
     }
 }
