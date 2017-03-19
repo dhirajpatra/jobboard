@@ -44,6 +44,7 @@ So kindly change the $baseUrl as per your virtual / real host name.
 * hrmanager@test.com [password: password]
 * moderator@test.com [password: password]
 * This application is using Swift Mailer library. So you have to configure the config/mail.php file too.
+* All documents including ER diagram, DFD inside public/document folder
 
 ### How to run
 Run your virtual host or real host from the browser eg. http://jobboard/ so it will show you the login screen. You can enter hrmanager login details to job post.
