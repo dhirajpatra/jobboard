@@ -52,6 +52,13 @@ After login successful it will show you the Job Posting form to post. Validation
 
 ```it will process to save the data after checking that this is your first job post or not. If it is first time from you [hrmanager for eg.] then it will send a mail with details links to moderator to activate / spam the mail. Otherwise it will save the mail and make the post automatically published. For the first time post moderator can activate the post through his mail's activation link. She can make it spam too by another link on the same mail.```
 
+###Future purposes
+Though I have created login system for user but there is no registration process now.
+
+Also now link the user table with jobposting table for future purposes so that application take the email and details by default and no need to write email at job post form.
+
+Also need to add more test especially Mock tests.
+
 
 
 

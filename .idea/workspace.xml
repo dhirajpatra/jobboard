@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfa7a3d-0d93-42be-8ddd-5e0833fb7360" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/BAfO6kZXd11Gii2heNZ7HTQvLmPieCtUFCOs79Q3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/IriSbtkJlwHHHkzytxpJW6UUE3g0hrkzbR5Gun04" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/KdVuUioM28IlS9oSZBITmuSoTnty1mlqjjlXFOia" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/bkOu2sJsLcPsamrkwA2C3VdyNiHrIr1xkT6uEzsD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.php_cs.cache" afterPath="$PROJECT_DIR$/.php_cs.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/JobpostController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/JobpostController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/cache/services.php" afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/laravel.log" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/LICENSE" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/README.md" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/composer.json" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Codec/StringCodec.php" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/src/Codec/StringCodec.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ramsey/uuid/src/UuidFactory.php" afterPath="$PROJECT_DIR$/vendor/ramsey/uuid/src/UuidFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/composer.json" />
     </list>
     <ignored path="jobboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JobpostTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JobpostTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/JobpostTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-623">
@@ -82,6 +52,30 @@
             <state relative-caret-position="629">
               <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="536">
+                <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -288,12 +282,12 @@
       <workItem from="1489824415404" duration="17189000" />
       <workItem from="1489879082601" duration="1336000" />
       <workItem from="1489880890709" duration="1686000" />
-      <workItem from="1489882598758" duration="1035000" />
+      <workItem from="1489882598758" duration="1238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83883000" />
+    <option name="totallyTimeSpent" value="84086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="24" width="1333" height="744" extended-state="6" />
@@ -649,34 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="477">
-            <caret line="45" column="104" selection-start-line="45" selection-start-column="104" selection-end-line="45" selection-end-column="104" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Jobposting.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -699,6 +665,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-623">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="536">
+            <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
