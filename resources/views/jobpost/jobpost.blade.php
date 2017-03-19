@@ -32,17 +32,17 @@
             <!-- if there are login errors, show them here -->
 
                 <div class="form-group">
-                    {{ Form::label('job_posting_title', 'Title') }}
+                    {{ Form::label('job_posting_title', 'Title ') }}
                     {{ Form::text('job_posting_title', Input::old('job_posting_title'), array('required', 'placeholder' => 'job title')) }}
                 </div>
 
                 <div class="form-group">
-                    {{ Form::label('job_posting_description', 'Description') }}
+                    {{ Form::label('job_posting_description', 'Description ') }}
                     {{ Form::textarea('job_posting_description', Input::old('job_posting_description'), array('required', 'placeholder' => 'job details')) }}
                 </div>
 
                 <div class="form-group">
-                    {{ Form::label('job_posting_email', 'email') }}
+                    {{ Form::label('job_posting_email', 'Email ') }}
                     {{ Form::text('job_posting_email', Input::old('job_posting_email'), array('required', 'placeholder' => 'job contact email')) }}
                 </div>
 
