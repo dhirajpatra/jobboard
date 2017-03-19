@@ -25,6 +25,9 @@ email   about   it
 ● email   notification   should   contain   title   and   description   of   submission,   as   well   as   links   to 
 approve   (publish)   or   mark   it   as   a   spam. 
 
+### Environment
+Laravel 5.4, PHP 7, MySql 5.6
+
 ### PSR 2 standard
 By php-cs-fixer all cotrollers, models and routes files are PSR 2 standard.
 
